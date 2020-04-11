@@ -15,7 +15,7 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t DIFFICULTY_TARGET                             = 3600; // seconds
+const uint64_t DIFFICULTY_TARGET                             = 36; // seconds
 
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
@@ -83,7 +83,7 @@ const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 10000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 2;
-const uint64_t MINIMUM_FEE                                   = UINT64_C(10000);
+const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
 
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
 const uint64_t MAXIMUM_MIXIN_V1                              = 3;
@@ -170,7 +170,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "athena-p2pstate.
 const char     MINER_CONFIG_FILE_NAME[]                      = "athena-miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "Athena";
+const char     CRYPTONOTE_NAME[]                             = "Ista";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -186,8 +186,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  1000;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  12000;
-const int      RPC_DEFAULT_PORT                              =  12001;
+const int      P2P_DEFAULT_PORT                              =  12620;
+const int      RPC_DEFAULT_PORT                              =  12621;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -206,13 +206,11 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 {
-    {  0x00, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xf0  }
+    {  0x00, 0x11, 0x12, 0x33, 0x44, 0x55, 0x26, 0x77, 0x88, 0x94, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xf0  }
 };
 
 const char* const SEED_NODES[] = {
-  "51.15.142.102:12000", //athena-0
-  "51.15.137.77:12000",  //athena-1
-  "165.227.252.132:12000", //community node
-  "95.179.138.105:12000" //community node
+  "194.146.24.8:12620", //athena-0
+  "185.127.18.199:12620",  //athena-1
 };
 }

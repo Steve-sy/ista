@@ -10,10 +10,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "athena";
+    const std::string addressPrefix = "Ista";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "ATHX";
+    const std::string ticker = "ISTA";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -32,7 +32,7 @@ namespace WalletConfig
     const std::string walletdName = "services";
 
     /* The full name of your crypto */
-    const std::string coinName = "Athena";
+    const std::string coinName = "Ista";
 
     /* Where can your users contact you for support? E.g. discord */
     const std::string contactLink = "http://chat.athx.org";

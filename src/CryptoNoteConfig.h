@@ -74,7 +74,7 @@ bl;ock 300
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010401ff0001cc99b366024ae8c3dc5675995688f3c7081e4c0179a000c884964f7c3f5cd80d54e207515a2101603335dbc9f1578c1e23095187e50cf74b3767c7215300e338f416d0c9e2853e";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010401ff0001cc99b36602fe381639e8a980509e1b1a4378131417fdabf2ac56966bb6f2fa1fcd6c888fcb21016cd84fdbfcde5e4fb49c911700e0b00e0a23773fc6669d732529b0398e9e9268";
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
